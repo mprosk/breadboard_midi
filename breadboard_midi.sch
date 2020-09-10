@@ -1,13 +1,14 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:breadboard_midi-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MIDI Breadboard Breakout"
+Date "2020-09-09"
+Rev "0.1"
+Comp "Max Proskauer"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -432,6 +433,10 @@ Wire Wire Line
 Connection ~ 3300 4300
 Wire Wire Line
 	3300 4300 3350 4300
-Text Notes 3850 3400 0    50   ~ 0
+Text Notes 5200 4800 0    50   ~ 0
     5V  3.3V\nR1 280 180\nR2 220 220\nR3 220 10\nR4 220 33
+Text Notes 6200 2250 0    100  ~ 0
+Pin Headers
+Text Notes 4950 4350 0    60   ~ 0
+Alternate Voltage Config
 $EndSCHEMATC
